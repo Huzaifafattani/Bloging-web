@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration Form</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="head1">
+    <div>
+        <h2 class="blog">Personal Blogging Site</h2>
+       <a href="./signup.html"> <button class="logbtn">Sign up</button></a>
+    </div>
+</header>
+<div class="heading-div">
+    <h2 class="">Login</h2>
+</div>
+
+
+  
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+       <form onsubmit="logIn(); return false">
+        <input type="text" id="loginemail" placeholder="Enter your email">
+        <input type="password" id="loginpassword" placeholder="Enter your password">
+        <a href="#">Forgot password?</a>
+        <input type="submit" class="button" value="Login">
+      </form>
+      <div class="signup">
+       <a href="./signup.html"> <span class="signup">Don't have an account?
+         <label for="check">Signup</label></a>
+        </span>
+      </div>
+    </div>
+    
+  </div>
+
+  <footer class="footer">
+    <div id="fcont">
+        <p>@Huzaifa fattani</p>
+    </div>
+</footer>
+
+
+  
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.mjs" type="module"></script>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise Page</title>
+    <style>
+        header {
+            background-color: #7749f8;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 100px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .promise-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .promise-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+            <div class="container">
+                <h1>Welcome to the Promise Page</h1>
+                <p>A promise is a commitment to do something. It represents a value that may not be available yet, but
+                    will be resolved at some point in the future.</p>
+                <a href="#" class="promise-button">Learn More</a>
+            </div>
+            <h3>Personal Blogging App</h3>
+            <div class="flex justify-center items-center width-[fit-content] gap-[1em]">
+                <p id="headerName" onclick="window.location.href = './profile.html'"></p>
+                <a onclick="logOut()">Logout</a>
+                <div class="dropdown">
+                    <button class="drop-down" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <p class="bi bi-three-dots-vertical dots"></p>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <BUtton> <li class="list"><a href="./index.html" class="drop-down-options" type="button">All Blogs</a></BUtton>
+                        </li>
+                        <BUtton> <li class="list"><a href="./index.html" class="drop-down-options" type="button">Dashboard</a></BUtton>
+                        </li>
+                        <BUtton> <li class="list"><a href="./profile.html" class="drop-down-options" type="button">Profile</a></BUtton>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+        <h2 class="heading">Profile</h2>
+
+        <div
+            class="w-[16em] h-[auto] bg-[#fff] border border-[1px] gap-[1.5em] border-[#ccc] p-[1em] mt-[3em] flex flex-col justify-right items-start">
+            <img src="https://media.licdn.com/dms/image/D4E03AQFqGEXfc4hpuw/profile-displayphoto-shrink_800_800/0/1676503803930?e=2147483647&v=beta&t=-jwTtWzaZolLLBNJWgfbcwuRagCPfwx5v2UzaFr9A2E"
+                class="mainImg">
+            <b>
+                <h1 class="text-center width-[100%] text-[1em] flex gap-[0.7em] justify-left items-center"><span
+                        id="name"></span><i onclick="editName(event)"
+                        class="bi bi-pencil-fill text-[#8540f5] text-[0.8em]"></i></h1>
+            </b>
+            <b>
+    
+        </div>
+
+
+    </body>
+
+    </html>
+
+</body>
+
+</html>

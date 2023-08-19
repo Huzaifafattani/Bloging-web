@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #7749F8;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#post-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.submit {
+    background-color: #7749F8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.submit:hover {
+    background-color: #7749F8;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    #post-form {
+        width: 90%;
+    }
+}

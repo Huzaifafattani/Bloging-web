@@ -1,0 +1,155 @@
+* {
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+.head1{
+  background-color:#7749F8;
+padding: 2px;
+}
+.head1 div{
+  display: flex;
+  justify-content: space-around;
+}
+.blog{
+  color: white;
+}
+.logbtn{
+
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 2px 10px;
+  background-color: #7749F8;
+  font-weight: bold;
+  border-radius: 5PX;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.heading-div{
+  background-color: white;
+  padding: 20px;   
+}
+.heading-div h2{
+  margin-left: 3rem;
+}
+
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+   min-height: 100vh;
+  width: 100%;
+  background:#fcfcfd;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px #7749F8;
+}
+
+.container1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px #7749F8;
+  padding: 20px ;
+}
+.container .registration{
+  display: none;
+}
+
+#check:checked ~ .registration{
+  display: block;
+}
+#check:checked ~ .login{
+  display: none;
+}
+#check{
+  display: none;
+}
+.container .form{
+  padding: 2rem;
+}
+.form header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+ .form input{
+   height: 50px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+ }
+ .form input:focus{
+   box-shadow: 0 1px 0 rgba(229, 127, 240, 0.2);
+ }
+.form a{
+  font-size: 16px;
+  color: #82b2a9;
+  text-decoration: none;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+.form input.button{
+  color: #fff;
+  background: #7749F8;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form input.button:hover{
+  background:#7749F8;
+}
+.signup{
+  font-size: 17px;
+  text-align: center;
+}
+.signup label{
+  color: #7749F8;
+  cursor: pointer;
+}
+.signup label:hover{
+  text-decoration: underline;
+}
+.footer{
+  background-color: #7749F8;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#fcont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
